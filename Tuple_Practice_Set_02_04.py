@@ -1,0 +1,10 @@
+marks = ["a", "b", "c", "d", "e", "f", "g"]
+marks[0] = int(input("enter first student Marks : "))
+marks[1] = int(input("enter second student Marks : "))
+marks[2] = int(input("enter third student Marks : "))
+marks[3] = int(input("enter fourth student Marks : "))
+marks[4] = int(input("enter fifth student Marks : "))
+marks[5] = int(input("enter sixth student Marks : "))
+marks[6] = int(input("enter seventh student Marks : "))
+marks.sort()
+print(marks)
